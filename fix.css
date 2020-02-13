@@ -9,3 +9,25 @@
 .card--content {
   min-width: 1000px;
 }
+
+table {
+
+}
+
+
+
+.cut-off th:nth-child(1) {
+  width: 75%;
+}
+.cut-off td:nth-child(1) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cut-off th:nth-child(2) {
+  width: 25%;
+}
+.cut-off td:nth-child(2) span {
+  display: block;
+  
+}
