@@ -1,33 +1,12 @@
 
-.card {
-  display: flex;
-  overflow-x: auto;
-  min-width: 100%;
-  min-height: 200px;
+.child {
+  height: 100%;
+  margin-bottom: -50px; /* maximum width of scrollbar */
+  padding-bottom: 50px; /* maximum width of scrollbar */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  box-sizing: content-box;
 }
-
-.card--content {
-  min-width: 1000px;
-}
-
-table {
-
-}
-
-
-
-.cut-off th:nth-child(1) {
-  width: 75%;
-}
-.cut-off td:nth-child(1) {
-  overflow: hidden;
+p {
   white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.cut-off th:nth-child(2) {
-  width: 25%;
-}
-.cut-off td:nth-child(2) span {
-  display: block;
-  
 }
