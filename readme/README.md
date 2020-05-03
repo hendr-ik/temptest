@@ -15,6 +15,7 @@ Self hosted, open source and free.
 - [How it works](#how-it-works)
 - [Essential metrics](#essential-metrics)
 - [Objectives](#objectives)
+- [Test drive](#test-drive)
 
 
  
@@ -48,7 +49,7 @@ __What you see__ | __What your users see__
 Data of all pages where your Offen installation is active. For example: | Data of all pages a user has visited where your Offen installation is active. For example:
 ![Example A](https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-A.svg) | ![Example B](https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-B.svg)
 
-__More features__
+__More features__  
 __✔__ All your accounts can be shared within your team.  
 __✔__ User data is only stored for 6 months and then deleted.  
 __✔__ Use the in-browser screen for a more intuitive setup.  
@@ -60,16 +61,31 @@ Collected without violating the privacy of your users.
 ![Essential metrics](https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Metrics.svg)
 
 ## Objectives
-__Privacy friendly__ 
+__Privacy friendly__  
 Collection of usage data is opt in, users that do not actively opt in will never leave a trace. After opt in, Offen collects the minimal amount of data needed to generate meaningful statistics for operators. No IPs, User-Agent strings or similar are being collected or even looked at.
 
-__Secure__ 
+__Secure__  
 Data in Offen is encrypted End-To-End. Clients encrypt usage data before it leaves the browser and there is no way for the server storing this data to decrypt it. Attackers have no means to compromise an instance, accidental data leaks cannot expose user data.
 
-__Self hosted and lightweight__ 
+__Self hosted and lightweight__  
 You can run Offen on-premises, or in any other deployment scenario that fits your need. All you need to do is download a single binary file or pull a Docker image, and run it on your server. Offen will automatically install and renew SSL certficates for you if you want it to. If you do not want to deploy a database, you can use SQLite to store data directly on the server.
 
-__Transparent and fair__
+__Transparent and fair__  
 Offen treats the user as a party of equal importance in the collection of usage data. Users have access to the same set of tools for analyzing their own data and they can delete their data at any time.
 
+## Test drive
+If you're curious, give it a test drive right now:
 
+```sh
+docker run --rm -it -p 9876:9876 offen/offen:latest demo -port 9876
+```
+
+This creates an ephemeral one-off installation that is populated with random data and is running on `http://localhost:9876`. There, you can log in using the account `demo@offen.dev` and password `demo`.
+
+## Project status
+__Offen is currently in active development.__  
+We're happy to help if you would like to experiment with deploying it, but at this point we cannot guarantee any upgrade stability yet. Each release might contain breaking changes that might result in data being lost on the next upgrade. 
+
+We are currently working on __Milestone 4 out of 6: Managing data__. Check our [blog][] for detailed updates on what we are working on right now and what's up next.
+
+[blog]: https://www.offen.dev/blog/
