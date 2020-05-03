@@ -1,5 +1,5 @@
 <a href="https://offen.dev/">
-    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/>
+    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Offen-logo.svg" alt="Offen logo" title="Offen" width="150px"/>
 </a>
 
 # Transparent web analytics
@@ -41,7 +41,8 @@ __Benefits for your users__
 __✔__ Opt in to data collection or decide to not participate at all.  
 __✔__ Review own data with detailed explanations of metrics and terms.  
 __✔__ Only delete usage data or opt out completly at any time.  
+  
 
 __What you see__ | __What your users see__
 --- | ---
-<img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/> | <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/>
+<img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-A.svg" alt="Example A" title="Example" width="348px"/> | <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-B.svg" alt="Example B" title="Example" width="348px"/>
