@@ -16,8 +16,9 @@ Self hosted, open source and free.
 - [Essential metrics](#essential-metrics)
 - [Objectives](#objectives)
 - [Test drive](#test-drive)
-
-
+- [Project status](#project-status)
+- [Developers welcome](#developers-welcome)
+- [Support](#support)
  
 ## Features
 __Free & open__  
@@ -83,9 +84,52 @@ docker run --rm -it -p 9876:9876 offen/offen:latest demo -port 9876
 This creates an ephemeral one-off installation that is populated with random data and is running on `http://localhost:9876`. There, you can log in using the account `demo@offen.dev` and password `demo`.
 
 ## Project status
-__Offen is currently in active development.__  
-We're happy to help if you would like to experiment with deploying it, but at this point we cannot guarantee any upgrade stability yet. Each release might contain breaking changes that might result in data being lost on the next upgrade. 
+__Offen is currently in active development.__ We're happy to help if you would like to experiment with deploying it, but at this point we cannot guarantee any upgrade stability yet. Each release might contain breaking changes that might result in data being lost on the next upgrade. 
 
-We are currently working on __Milestone 4 out of 6: Managing data__. Check our [blog][] for detailed updates on what we are working on right now and what's up next.
+We are currently working on __Milestone 4 out of 6: Managing data.__ Check our [blog][] for detailed updates on what we are working on right now and what's up next.
 
 [blog]: https://www.offen.dev/blog/
+
+
+## Developers welcome
+This repository contains all source code needed to build and run Offen, both on the server as well as on the client. Also see each of the READMEs in the subdirectories for information on how to work on that particular area of the application.
+
+The development setup requires `docker` and `docker-compose` to be installed.
+
+After cloning the repository, you can build the containers and install dependencies using:
+
+```sh
+$ make setup
+```
+
+Next seed the database for the `server` application:
+
+```sh
+$ make bootstrap
+```
+
+You can test your setup by starting the application:
+
+```sh
+$ make up
+```
+
+which should enable you to access <http://localhost:8080/auditorium/> and use the `Auditorium`
+
+Run the tests for all subapplicatons using
+
+```sh
+$ make test
+```
+
+## Support
+[![NLnet Foundation](https://offen.github.io/press-kit/external-material/nlnet-logo.svg)](https://nlnet.nl/)
+
+We are happy to work with [NLnet Foundation](https://nlnet.nl/) who complement our activities within their [Next Generation Internet](https://nlnet.nl/NGI/) initiative.
+
+---
+<a href="https://www.browserstack.com/">
+  <img src="https://offen.github.io/press-kit/external-material/browserstack-logo.svg" width="160">
+</a>
+
+Cross-Browser testing provided by [BrowserStack](https://www.browserstack.com/).
