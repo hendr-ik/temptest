@@ -8,19 +8,22 @@
 
 Offen is a fair alternative to common web analytics tools.  
 Pay respect to your users while gaining insight into their behavior.  
-Self hosted, open source and free.  
+Self hosted, open source and free.
+
+:star: Thanks for a star on GitHub! It just helps.
 
 ## Contents
-- [Features](#features)
+- [Core features](#core-features)
 - [How it works](#how-it-works)
 - [Essential metrics](#essential-metrics)
 - [Objectives](#objectives)
 - [Test drive](#test-drive)
 - [Project status](#project-status)
 - [Developers welcome](#developers-welcome)
-- [Support](#support)
+- [Kind support](#kind-support)
+- [Links](Links)
  
-## Features
+## Core-features
 __Free & open__  
 Our open source code can be fully audited by the community.  
 It will always be available for free. Seriously.
@@ -122,14 +125,18 @@ Run the tests for all subapplicatons using
 $ make test
 ```
 
-## Support
+## Kind support
 [![NLnet Foundation](https://offen.github.io/press-kit/external-material/nlnet-logo.svg)](https://nlnet.nl/)
 
 We are happy to work with [NLnet Foundation](https://nlnet.nl/) who complement our activities within their [Next Generation Internet](https://nlnet.nl/NGI/) initiative.
 
----
 <a href="https://www.browserstack.com/">
   <img src="https://offen.github.io/press-kit/external-material/browserstack-logo.svg" width="160">
 </a>
 
 Cross-Browser testing provided by [BrowserStack](https://www.browserstack.com/).
+
+## Links
+[Website](https://www.offen.dev/)
+[Docs](https://docs.offen.dev/)
+[Twitter](https://twitter.com/hioffen)
