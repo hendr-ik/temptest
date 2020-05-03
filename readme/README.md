@@ -1,5 +1,5 @@
-<a href="https://offen.dev/" target="_blank" rel="noopener">
-    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" align="right" width="150px" />
+<a href="https://offen.dev/">
+    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px" />
 </a>
 
 # Transparent web analytics
@@ -7,9 +7,9 @@
 [![CircleCI](https://circleci.com/gh/offen/offen/tree/development.svg?style=svg)](https://circleci.com/gh/offen/offen/tree/development)
 [![Patreon](https://img.shields.io/static/v1.svg?label=patreon&message=donate&color=e85b46)](https://www.patreon.com/offen)
 
-Offen is a fair alternative to common web analytic tools.
-Pay respect to your users while gaining insight into their behavior.
-Self hosted, open source and free.
+Offen is a fair alternative to common web analytic tools.  
+Pay respect to your users while gaining insight into their behavior.  
+Self hosted, open source and free.  
 
 ---
 
