@@ -45,5 +45,5 @@ __✔__ Only delete usage data or opt out completly at any time.
 
 __What you see__ | __What your users see__
 --- | ---
-Data of all pages where your Offen installation is active. For example:  | Data of all pages a user has visited where your Offen installation is active. For example:
-<img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-A.svg" alt="Example A" title="Example" width="348px"/> | <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-B.svg" alt="Example B" title="Example" width="348px"/>
+Data of all pages where your Offen installation is active. For example: | Data of all pages a user has visited where your Offen installation is active. For example:
+![Example A](https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-A.svg) | ![Example B](https://github.com/offen/press-kit/blob/master/offen-material/gfx-GitHub-Example-B.svg)
