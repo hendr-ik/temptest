@@ -17,3 +17,6 @@ Self hosted, open source and free.
 
 ## Features
 
+### Free & open
+Our __open source code__ can be fully audited by the community. It will always be __available for free.__ Seriously.
+
