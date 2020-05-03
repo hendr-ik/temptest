@@ -21,6 +21,7 @@ Self hosted, open source and free.
 - [Project status](#project-status)
 - [Developers welcome](#developers-welcome)
 - [Kind support](#kind-support)
+- [Give feedback](#give-feedback)
 - [Links](Links)
  
 ## Core-features
@@ -136,7 +137,10 @@ We are happy to work with [NLnet Foundation](https://nlnet.nl/) who complement o
 
 Cross-Browser testing provided by [BrowserStack](https://www.browserstack.com/).
 
+## Give feedback
+Found an issue or want to add something? Please do not hesitate to [file an issue](https://github.com/offen/offen/issues/new) or [open a pull request.](https://github.com/offen/offen/pulls)
+
 ## Links
-[Website](https://www.offen.dev/)
-[Docs](https://docs.offen.dev/)
-[Twitter](https://twitter.com/hioffen)
+[Website](https://www.offen.dev/)  
+[Docs](https://docs.offen.dev/)  
+[Twitter](https://twitter.com/hioffen)  
