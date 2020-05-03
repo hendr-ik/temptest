@@ -14,9 +14,17 @@ Self hosted, open source and free.
 ## Table of Contents
 - [Features](#features)
 
-
 ## Features
 
-### Free & open
+__Free & open__  
 Our __open source code__ can be fully audited by the community. It will always be __available for free.__ Seriously.
+
+__Self hosted__  
+__Comply with GDPR__ guidelines. Don't share data with third parties. Your __users have full access__ to their data.
+
+__Fair & secure__
+__Pay respect__ to your website visitors. Gain valuable insights at the same time. All data is __encrypted end-to-end.__
+
+
+
 
