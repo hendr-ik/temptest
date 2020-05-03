@@ -1,5 +1,5 @@
 <a href="https://offen.dev/">
-    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px" style="margin-bottom: -10px"/>
+    <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/>
 </a>
 
 # Transparent web analytics
@@ -11,7 +11,7 @@ Offen is a fair alternative to common web analytics tools.
 Pay respect to your users while gaining insight into their behavior.  
 Self hosted, open source and free.  
 
-## Table of Contents
+## Contents
 - [Features](#features)
 - [How it works](#how_it_works)
 
@@ -41,3 +41,7 @@ __Benefits for your users__
 __✔__ Opt in to data collection or decide to not participate at all.  
 __✔__ Review own data with detailed explanations of metrics and terms.  
 __✔__ Only delete usage data or opt out completly at any time.  
+
+__What you see__ | __What your users see__
+--- | ---
+<img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/> | <img src="https://github.com/offen/press-kit/blob/master/offen-material/gfx-Offen-logo-GitHub.svg" alt="Offen logo" title="Offen" width="150px"/>
