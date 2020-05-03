@@ -1,5 +1,9 @@
 
-# Offen
+Offen
+[![CircleCI](https://circleci.com/gh/offen/offen/tree/development.svg?style=svg)](https://circleci.com/gh/offen/offen/tree/development)
+[![Patreon](https://img.shields.io/static/v1.svg?label=patreon&message=donate&color=e85b46)](https://www.patreon.com/offen)
+
+=====
 
 ## Web analytics that handle your data with respect
 
@@ -9,8 +13,6 @@
 
 #### Web analytics that handle your data with respect
 
-[![CircleCI](https://circleci.com/gh/offen/offen/tree/development.svg?style=svg)](https://circleci.com/gh/offen/offen/tree/development)
-[![Patreon](https://img.shields.io/static/v1.svg?label=patreon&message=donate&color=e85b46)](https://www.patreon.com/offen)
 
 # Offen
 
